@@ -4,7 +4,6 @@
     url("./fonts/sanse.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-  text-rendering: optimizeLegibility;
   font-display: auto;
 }
 @font-face {
@@ -15,11 +14,9 @@
 body,
 html {
   font-family: iransans;
-  width: 100%;
-  height: 100%;
+
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
   background: #f4fff6;
   direction: rtl;
 }
@@ -44,6 +41,71 @@ html {
 .logo {
   font-size: 2rem;
 }
+.poster {
+  
+}
 .firsrPage-img {
   width: 100%;
+}
+.see-more{
+  margin-top: -6.5rem;
+font-size:3rem ;
+color: #f4fff6;
+text-align: center;
+}
+.import-box{
+   width: 100%;
+   padding: 2rem;
+   margin-top: 1.5rem;
+   direction: rtl;
+}
+.import-title{
+  text-align:right;
+
+}
+.import-items{
+  display: grid;
+  gap: 1rem;
+
+
+}
+.import-item{
+  background-image: url('./images/importPic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.50));
+}
+.on-img-items{
+ display: flex;
+ justify-content: space-between;
+ padding: 12px;
+
+}
+.right-item{
+  float: right;
+  text-align: right;
+
+}
+.import-product-name{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.left-item{
+  margin-top: 2rem;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+}
+.import-countru-name{
+  font-size: .6 rem;
+  font-weight: bold;
+
+}
+
+.import-icone{
+  font-size: 1.6rem;
 }
