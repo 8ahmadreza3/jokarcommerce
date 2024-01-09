@@ -6,11 +6,6 @@
   font-style: normal;
   font-display: auto;
 }
-@font-face {
-  font-family: ravi;
-  src: url("fonts/Ravi\ Light.ttf") format("ttf");
-  src: url("fonts/Ravi\ Light.otf") format("otf");
-}
 body,
 html {
   font-family: iransans;
@@ -20,31 +15,22 @@ html {
   background: #f4fff6;
   direction: rtl;
 }
-.navigation {
+.navigation-top {
+  z-index: 1;
   width: 100%;
   border-radius: 0px 0px 8px 8px;
   background: rgba(71, 160, 216, 0.4);
-  box-shadow: 0px 16px 20px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(15px);
   position: fixed;
 }
-.navigation-items {
-  margin-top: 2.5rem;
+.poster{
+  max-width: 100%;
+  max-height: 100%;
+
 }
-.menu-button {
-  font-size: 2rem;
-}
-.name {
-  font-size: 28px;
-  font-family: sanse;
-}
-.logo {
-  font-size: 2rem;
-}
-.poster {
-  
-}
+
 .firsrPage-img {
+  
   width: 100%;
 }
 .see-more{
@@ -75,8 +61,7 @@ text-align: center;
   background-size: cover;
   background-position: center;
   border-radius: 16px;
-  filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.50));
-}
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.50));}
 .on-img-items{
  display: flex;
  justify-content: space-between;
@@ -108,4 +93,13 @@ text-align: center;
 
 .import-icone{
   font-size: 1.6rem;
+}
+
+/* export */
+.export-item{
+  background-image: url('./images/exportPic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }

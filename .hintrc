@@ -9,5 +9,14 @@
     "not firefox <= 117",
     "not ios_saf <= 17",
     "not safari <= 17"
-  ]
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
+    ],
+    "button-type": "off"
+  }
 }
