@@ -14,6 +14,7 @@ html {
   padding: 0px;
   background: #f4fff6;
   direction: rtl;
+  scroll-behavior: smooth;
 }
 .navigation-top {
   z-index: 1;
@@ -23,83 +24,101 @@ html {
   backdrop-filter: blur(15px);
   position: fixed;
 }
-.poster{
+.poster {
   max-width: 100%;
   max-height: 100%;
-
 }
 
 .firsrPage-img {
-  
+  margin-top: 60px;
   width: 100%;
 }
-.see-more{
+.see-more {
   margin-top: -6.5rem;
-font-size:3rem ;
-color: #f4fff6;
-text-align: center;
+  font-size: 3rem;
+  color: #f4fff6;
+  text-align: center;
 }
-.import-box{
-   width: 100%;
-   padding: 2rem;
-   margin-top: 1.5rem;
-   direction: rtl;
+.import-box {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  direction: rtl;
 }
-.import-title{
-  text-align:right;
-
+.import-title {
+  text-align: right;
 }
-.import-items{
+.import-items {
   display: grid;
   gap: 1rem;
-
-
 }
-.import-item{
-  background-image: url('./images/importPic.jpg');
+.import-item {
+  background-image: url("./images/importPic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 16px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.50));}
-.on-img-items{
- display: flex;
- justify-content: space-between;
- padding: 12px;
-
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.5));
 }
-.right-item{
+.on-img-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.right-item {
   float: right;
   text-align: right;
-
 }
-.import-product-name{
+.import-product-name {
   font-size: 1.3rem;
   font-weight: bold;
 }
 
-.left-item{
+.left-item {
   margin-top: 2rem;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-
 }
-.import-countru-name{
-  font-size: .6 rem;
+.import-countru-name {
+  font-size: 0.6 rem;
   font-weight: bold;
-
 }
 
-.import-icone{
+.import-icone {
   font-size: 1.6rem;
 }
 
 /* export */
-.export-item{
-  background-image: url('./images/exportPic.jpg');
+.export-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+}
+.export-item {
+  margin: 1rem;
+  background-image: url("./images/exportPic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+  border-radius: 16px;
+  width: 256px !important;
+  padding: 2rem;
+  height: 363px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+.producte-name {
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+  margin-right: .5rem;
+}
+.import-countru-name{
+  font-size: 16px;
+}
+.export-txt {
+  color: white;
 }
