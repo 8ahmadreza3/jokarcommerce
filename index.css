@@ -122,3 +122,17 @@ html {
 .export-txt {
   color: white;
 }
+
+/* custom */
+.custom-item{
+  padding: 1rem;
+  background-image: url("./images/custom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
