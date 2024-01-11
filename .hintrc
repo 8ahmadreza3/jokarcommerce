@@ -11,12 +11,7 @@
     "not safari <= 17"
   ],
   "hints": {
-    "axe/name-role-value": [
-      "default",
-      {
-        "button-name": "off"
-      }
-    ],
+    "axe/name-role-value": "off",
     "button-type": "off"
   }
 }
