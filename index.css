@@ -124,7 +124,13 @@ html {
 }
 
 /* custom */
+.custom-box{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
 .custom-item{
+  border-radius: 16px;
   padding: 1rem;
   background-image: url("./images/custom.jpg");
   background-repeat: no-repeat;
@@ -135,4 +141,16 @@ html {
   color: white;
   align-items: center;
   justify-content: center;
+}
+.custom-icone{
+  color: black;
+  border: 4px solid black;
+  border-radius: 12px;
+  font-size: 2rem;
+  padding: 6px;
+}
+.custom-txt{
+  font-weight: 400;
+  color: black;
+ 
 }
