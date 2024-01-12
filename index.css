@@ -157,6 +157,20 @@ html {
 
 /* educate */
 .educate-box{
-border-radius: 16px;
+  position: relative;
+  display: inline-block;
+
+}
+.img-educate{
+
   
+}
+
+.educate-txt{
+  position: absolute;
+  color: #fff;
+
+
+
+
 }
