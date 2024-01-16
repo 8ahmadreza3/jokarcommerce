@@ -10,18 +10,20 @@ body,
 html {
   font-family: iransans;
 
-  margin: 0px;
+  margin: 0px !important;
   padding: 0px;
   background: #f4fff6;
   direction: rtl;
-  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .navigation-top {
   z-index: 1;
-  width: 100%;
+  width: 100% ;
   border-radius: 0px 0px 8px 8px;
   background: rgba(71, 160, 216, 0.4);
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px) contrast(60%);
+  -webkit-backdrop-filter: blur(15px) contrast(60%);
+
   position: fixed;
 }
 .poster {
@@ -30,8 +32,8 @@ html {
 }
 
 .firsrPage-img {
-  margin-top: 60px;
-  width: 100%;
+  background-size: cover ;
+  width: 100% !important;
 }
 .see-more {
   margin-top: -6.5rem;
@@ -157,20 +159,66 @@ html {
 
 /* educate */
 .educate-box{
-  position: relative;
-  display: inline-block;
-
+  margin: 2.5rem  0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
 }
-.img-educate{
+.educate-item{
+  margin: .5rem;
+  background-image: url("./images/educating.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  width: 340px !important;
+  padding: 2rem;
+  height: 210px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 2rem;
 
-  
-}
-
+  }
 .educate-txt{
-  position: absolute;
   color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
 
-
-
+/* footer */
+.footer-box{
+  background: #185F95;
+  width: 100%;  
+  bottom: 0%;
+  margin-bottom: 0%;  
+}
+.footerIcones{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  font-size: 2rem;
+}
+.footer-adress{
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.adress{
+  margin-right: 8px;
+}
+.footer-programer{
+  text-align: center;
+  color: #1a1a1a;
+}
+.programer{
+  font-size: 16px;
+}
+.programer-number{
+  font-size: 12px;
 
 }
