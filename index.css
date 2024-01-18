@@ -59,6 +59,7 @@ html {
   gap: 1rem;
 }
 .import-item {
+  cursor: pointer;
   background-image: url("./images/importPic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,6 +103,8 @@ html {
   align-items: center;
 }
 .export-item {
+  cursor: pointer;
+
   margin: 1rem;
   background-image: url("./images/exportPic.jpg");
   background-repeat: no-repeat;
@@ -135,6 +138,8 @@ html {
    justify-content: space-around;
 }
 .custom-item{
+  cursor: pointer;
+
   border-radius: 16px;
   padding: 1rem;
   background-image: url("./images/custom.jpg");
@@ -169,6 +174,8 @@ html {
   overflow-x: scroll;
 }
 .educate-item{
+  cursor: pointer;
+
   margin: .5rem;
   background-image: url("./images/educating.jpg");
   background-repeat: no-repeat;
@@ -198,6 +205,8 @@ html {
   margin-bottom: 0%;  
 }
 .footerIcones{
+  cursor: pointer;
+
   display: flex;
   align-items: center;
   justify-content: space-around;
