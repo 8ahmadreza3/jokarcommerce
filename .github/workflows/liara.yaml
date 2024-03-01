@@ -17,4 +17,8 @@ jobs:
           LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
         run: |
           npm i -g @liara/cli@5
+<<<<<<< HEAD
           liara deploy --app="jokarcommerce" --api-token="$LIARA_TOKEN" --no-app-logs --port=3000
+=======
+          liara deploy --app="jokarcommerce" --api-token="$LIARA_TOKEN" --no-app-logs --port=3000
+>>>>>>> 7bd86f35296b22e3be33dc3481c8c164f688eb96
