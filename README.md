@@ -1,0 +1,1 @@
+**This repository is a static website designed and styled as a catalog for a customs trading company.**
